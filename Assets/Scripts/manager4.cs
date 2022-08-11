@@ -38,4 +38,9 @@ public class manager4 : MonoBehaviour
             menu.SetActive(false);
         }
     }
+
+    public void salir()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadSceneAsync("menu");
+    }
 }
